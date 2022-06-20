@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+button {
+    height: 48px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 165, 0);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 16px;
+}
+
+input {
+    height: 48px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2) ;
+}
+
+.header-container {
+    height: 250px;
+    background-color: gray;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.card {
+    height: calc(100vh - 218px);
+    background-color: white;
+    border-radius: 8px;
+    margin-top: -32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
